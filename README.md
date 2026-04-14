@@ -1,5 +1,3 @@
----
-
 # 🛠️ PyFixer
 
 **PyFixer** 是一款极简的 Python 代码自愈工具。它通过 **AST（抽象语法树）** 静态分析技术，一键解决“忘记写 import”和“环境缺失依赖”两大痛点。
@@ -41,8 +39,5 @@ MAP = {
     'your_mod': ('import your_module as your_mod', 'your_pip_package'),
     # ...
 }
-```
-
----
 
 **PyFixer：告别 ModuleNotFoundError，让代码开发行云流水。**
